@@ -11,7 +11,6 @@ public class Question1 {
         sArray[0] = 0;
         for (int i = 1; i <= dNum ; i++) {
             array[i] = sc.nextInt();
-            System.out.println("array"+"["+i+"]"+" = " + array[i]);
             sArray[i] = sArray[i-1] + array[i];
         }
         for (int i = 0; i < qNum; i++) {
